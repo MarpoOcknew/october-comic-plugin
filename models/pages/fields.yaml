@@ -1,0 +1,55 @@
+secondaryTabs:
+    fields:
+        name:
+            label: 'Page Name'
+            span: full
+            type: text
+            tab: General
+        chapter:
+            label: Chapter
+            nameFrom: name
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: General
+        page_number:
+            label: 'Page Number'
+            span: right
+            type: number
+            tab: General
+        transcript:
+            label: Transcript
+            size: large
+            mode: split
+            span: full
+            type: markdown
+            tab: General
+        page:
+            label: 'Finished Page'
+            mode: image
+            span: left
+            type: mediafinder
+            tab: 'Finished Page'
+        textless:
+            label: Textless
+            mode: image
+            span: left
+            type: mediafinder
+            tab: 'Textless Page'
+        sketch:
+            label: Sketch
+            mode: image
+            span: left
+            type: mediafinder
+            tab: Sketch
+        published:
+            label: Published
+            span: left
+            type: switch
+            tab: Publish
+        published_at:
+            label: 'Publish Date'
+            mode: datetime
+            span: right
+            type: datepicker
+            tab: Publish

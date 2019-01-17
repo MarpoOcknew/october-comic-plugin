@@ -1,0 +1,10 @@
+name: Pages
+form: $/marpo/comic/models/pages/fields.yaml
+modelClass: Marpo\Comic\Models\Pages
+defaultRedirect: marpo/comic/pages
+create:
+    redirect: 'marpo/comic/pages/update/:id'
+    redirectClose: marpo/comic/pages
+update:
+    redirect: marpo/comic/pages
+    redirectClose: marpo/comic/pages

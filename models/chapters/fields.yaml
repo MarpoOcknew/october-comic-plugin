@@ -1,0 +1,26 @@
+fields:
+    name:
+        label: Name
+        span: left
+        type: text
+    banner:
+        label: Banner
+        mode: image
+        span: right
+        type: mediafinder
+    number:
+        label: Number
+        span: left
+        type: number
+    desc:
+        label: Description
+        size: small
+        span: left
+        type: textarea
+secondaryTabs:
+    fields:
+        published:
+            label: ''
+            span: auto
+            type: switch
+            tab: Publish

@@ -1,0 +1,17 @@
+columns:
+    number:
+        label: Chapter
+        type: number
+        searchable: false
+        sortable: true
+    name:
+        label: Name
+        type: text
+        searchable: false
+    desc:
+        label: Description
+        type: text
+        searchable: false
+    published:
+        label: Published
+        type: switch

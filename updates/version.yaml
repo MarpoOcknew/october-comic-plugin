@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table marpo_comic_chapters'
+    - builder_table_create_marpo_comic_chapters.php
+1.0.3:
+    - 'Created table marpo_comic_pages'
+    - builder_table_create_marpo_comic_pages.php
+1.0.4:
+    - 'Added published to tables'
+    - migration104.php

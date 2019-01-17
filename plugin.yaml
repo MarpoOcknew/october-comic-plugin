@@ -1,0 +1,11 @@
+plugin:
+    name: 'marpo.comic::lang.plugin.name'
+    description: 'marpo.comic::lang.plugin.description'
+    author: Marpo
+    icon: oc-icon-book
+    homepage: 'https://martinpollock.co.uk'
+navigation:
+    main-menu-item:
+        label: Comic
+        url: marpo/comic/chapters
+        icon: icon-book

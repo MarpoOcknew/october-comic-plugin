@@ -1,0 +1,10 @@
+name: Chapters
+form: $/marpo/comic/models/chapters/fields.yaml
+modelClass: Marpo\Comic\Models\Chapters
+defaultRedirect: marpo/comic/chapters
+create:
+    redirect: 'marpo/comic/chapters/update/:id'
+    redirectClose: marpo/comic/chapters
+update:
+    redirect: marpo/comic/chapters
+    redirectClose: marpo/comic/chapters

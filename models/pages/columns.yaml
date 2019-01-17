@@ -1,0 +1,15 @@
+columns:
+    chapter_id:
+        label: Chapter
+        type: number
+        sortable: true
+    page_number:
+        label: 'Page Number'
+        type: number
+        sortable: true
+    name:
+        label: Name
+        type: text
+    published:
+        label: Published
+        type: switch
